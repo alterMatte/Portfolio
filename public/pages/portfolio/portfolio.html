@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syafiq Firdaus</title>
+    <link rel="shortcut icon" href="../../../src/icon/user.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "_8wC2UqNxJNyyVqG0",
+        });
+    })();
+    </script>
+</head>
+<body>
+    <video id="background-video" src="../../../src/video/intro.mp4" poster="../../../src/thumbnails/introduction.JPG" autoplay muted loop></video>
+        <nav id="navbar">
+            <a href="#introduction" class="scroll-up">
+                <div id="profile-picture">
+                    <img id="avatar" class="animated-icons" src="../../../src/gif/wired-outline-21-avatar-hover-jumping.apng" alt="">
+                    <p>MSF</p>
+                </div>
+            </a>
+            <ul>
+                <a href="../project/project.html">
+                    <li>Projects</li>
+                </a>
+                <a href="../about/about.html">
+                    <li>About Me</li>
+                </a>
+                <a href="../contacts/contacts.html">
+                    <li>Contacts</li>
+                </a>
+            </ul>
+        </nav>
+        <div class="container">
+            <div id="introduction" class="section">
+                <div id="introduction-content">
+                    <h1 id="intro-click" class="intro-hover">Click Here!</h1>
+                </div>
+            </div>
+            <div id="projects" class="section slide-from-right">
+                <h2>Featured Projects</h2>
+                <div id="projects-grid"></div>
+                <a href="../project/project.html"><p>See more...</p></a>
+            </div>
+            <div id="extras" class="section slide-from-bottom">
+                <div id="additional-info" class="slide-in">
+                    <h2>Additional Information</h2>
+                    <p>More details about me and my work can be found in the about me and contacts section.</p>
+                </div>
+                <div id="tools-and-apps" class="slide-in">
+                    <h3>Tools and Apps</h3>
+                </div>
+                <div id="attributions" class="slide-in">   
+                    <h3>Attributions</h3>
+                    <a href="https://lordicon.com/"><p>Icons by lordicon.com</p></a>
+                    <a href="https://flaticon.com"><p>Icons by flaticon.com</p></a>
+                    <p>Background by freepik.com</p>
+                    <p>Gifs by Pixabay.com</p>
+                    <p>Color by colorhunt.co</p>
+                </div>
+                <div id="interest" class="slide-in">
+                    <h3>Hobby & Interest</h3>
+                </div>
+            </div>
+            <div id="email-me">
+                <img id="quick-contact" src="../../../src/icon/message.png" alt="Email me">
+                <span id="span-email-me">Email Me</span>
+            </div>
+            <div id="email-window">
+                    <h3>Contact Me</h3>
+                    <form id="email-form">
+                        <input type="text" id="name" name="name" placeholder="Your Name" class="form-input" required>
+                        <input type="email" id="email" name="email" placeholder="Your Email" class="form-input" required>
+                        <textarea id="message" name="message" placeholder="Your Message" class="form-input" required></textarea>
+                        <button type="button" id="submit-email">Send</button>
+                    </form>
+                    <div>
+                        <p>*Please put in working email address</p>
+                        <p>*Do not put any sensitive information</p>
+                    </div>
+            </div>
+            <div id="background-overlay-1"></div>
+            <div id="background-blur"></div>
+        </div>
+    <script type="module" src="./script.js"></script>
+</body>
+<footer>
+    <p>© 2025 Syafiq Firdaus. All rights reserved.</p>
+</footer>
+</html>
