@@ -2,10 +2,10 @@ import { display6Projects } from '../../../src/scripts/displayProject.js';
 import introClickHandler from '../../../src/scripts/introClick.js';
 import quickEmail from '../../../src/scripts/quickEmail.js';
 
+console.log('outside run');
+
 const init = () => {
-    
-    
-    const main = document.getElementById('main');
+    console.log('this run inside');
 
     // Run functions
     display6Projects();
