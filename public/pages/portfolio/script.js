@@ -8,7 +8,7 @@ const init = () => {
     console.log('this run inside');
 
     // Run functions
-    display6Projects();
+    //display6Projects();
     introClickHandler();
     quickEmail();
 };
