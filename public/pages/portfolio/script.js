@@ -1,4 +1,4 @@
-import { display6Projects } from '../../../src/scripts/displayProject.js';
+//import { display6Projects } from '../../../src/scripts/displayProject.js';
 import introClickHandler from '../../../src/scripts/introClick.js';
 import quickEmail from '../../../src/scripts/quickEmail.js';
 
