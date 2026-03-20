@@ -106,9 +106,34 @@ const projects = {
         title: "Calorie Counter",
     },
     22: {
-        link: "https://altermatte.github.io/Adventure-Game/",
-        thumbnail: "/thumbnails/adventure-game.JPG",
-        title: "Adventure Game",
+        link: "https://jammming-play.netlify.app/",
+        thumbnail: "/thumbnails/jammming.JPG",
+        title: "Jammming Playlist",
+    },
+    23: {
+        link: "https://apointment-planner.netlify.app/",
+        thumbnail: "/thumbnails/appointment-planner.JPG",
+        title: "Appointment Planner",
+    },
+    24: {
+        link: "https://github.com/alterMatte/Quote-API",
+        thumbnail: "",
+        title: "Random Quote Backend API",
+    },
+    25: {
+        link: "https://adoptiblepet.netlify.app/",
+        thumbnail: "/thumbnails/adopt-a-pet.JPG",
+        title: "Adopt a Pet",
+    },
+    26: {
+        link: "https://github.com/alterMatte/BlackJack-Python",
+        thumbnail: "",
+        title: "Blackjack Python",
+    },
+    27: {
+        link: "https://altermatte.github.io/API-Project/",
+        thumbnail: "/thumbnails/API-project.JPG",
+        title: "Youtub API fetch Project WIP",
     },
 }
 
