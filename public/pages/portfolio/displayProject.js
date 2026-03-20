@@ -2,12 +2,10 @@ import projects from './projectData.js';
 
 const displayProject = (project) => {
     return `
-    <div class="project-card">
-        <a href="${project.link}">
+    <a class="project-card" href="${project.link}">
             <img class="project-thumbnail" src="../../../src${project.thumbnail}" alt="${project.title}">
-        </a>
-        <h3>${project.title}</h3>
-    </div>
+            <h3>${project.title}</h3>
+    </a>
     `;
 }
 
