@@ -1,4 +1,4 @@
-import projects from '../data/projectData.js';
+import projects from './projectData.js';
 
 const displayProject = (project) => {
     return `

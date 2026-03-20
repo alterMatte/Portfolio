@@ -1,5 +1,5 @@
-import projects from "../../../src/data/projectData.js";
-import { displayProject } from "../../../src/scripts/displayProject.js";
+import projects from "./projectData.js";
+import { displayProject } from "./displayProject.js";
 
 let projectSection = document.getElementById("projects-section")
 

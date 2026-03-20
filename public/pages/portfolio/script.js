@@ -1,11 +1,11 @@
-import { display6Projects } from '../../../src/scripts/displayProject.js';
-import introClickHandler from '../../../src/scripts/introClick.js';
-import quickEmail from '../../../src/scripts/quickEmail.js';
-
-console.log('outside run');
+import { display6Projects } from './displayProject.js';
+import introClickHandler from './introClick.js';
+import quickEmail from './quickEmail.js';
 
 const init = () => {
-    console.log('this run inside');
+    
+    
+    const main = document.getElementById('main');
 
     // Run functions
     display6Projects();
@@ -14,7 +14,6 @@ const init = () => {
 };
 
 // Wait for DOM to be ready
-
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
 } else {
